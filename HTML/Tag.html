@@ -8,6 +8,7 @@
 </head>
 
 <body>
+    <!-- Introduzione ai tag -->
     <h1>Tag HTML</h1>
     <p>
         Un <b>elemento HTML</b> è definito da una tag iniziale (<b>&lt;tag&gt;</b>). Se l'elemento ha al suo interno
@@ -40,14 +41,32 @@
             tag. Senza CSS non hanno una vera utilità se non quella di organizzare i tag.
         </p>
     </section>
+    <p>
+        Ai tag può essere aggiunto un attributo inserendo <b>atttribute="value"</b> all'intero del tag iniziale.
+    </p>
+    <!-- Introduzione ai tag -->
+    <br>
     <h2>Lista dei tag</h2>
     <!-- Block level tags -->
     <h3>Block level tags:</h3>
     <ul>
+        <!-- Tag <div> -->
+        <li>
+            <p>
+                Il tag <b>&lt;div&gt;</b>(division) definisce una divisione o una sezione in un documento HTML.
+                È un tag <b>container</b>.
+            </p>
+            <p>
+                Esempio:
+            <div>Questo è un div</div>
+            </p>
+        </li>
+        <!-- /Tag <div> -->
+        <hr>
         <!-- Tag <p> -->
         <li>
             <p>
-                Il tag <b>&lt;p&gt;</b>(paragraph) definisce un paragrafo.
+                Il tag <b>&lt;p&gt;</b>(paragraph) definisce un paragrafo. È un tag <b>container</b>.
             </p>
             <p>
                 Esempio:
@@ -163,6 +182,32 @@
     <!-- Inline tags -->
     <h3>Inline tags:</h3>
     <ul>
+        <!-- Tag <span> -->
+        <li>
+            <p>
+                Il tag <b>&lt;span&gt;</b>(span) definisce un container utilizzato per contrassegnare una parte del
+                documento. È un tag <b>container</b>.
+            </p>
+            <p>
+                Esempio:
+                <span>Questo è uno span</span>
+            </p>
+        </li>
+        <!-- /Tag <span> -->
+        <hr>
+        <!-- Tag <a> -->
+        <li>
+            <p>
+                Il tag <b>&lt;a&gt;</b>(anchor tag) definisce un hyperlink, utilizzato per collegare da una pagina a un altra.
+                <br>L'attributo più importante del tag <b>&lt;a&gt;</b> è <b>"href"</b>, che indica l'indirizzo di destinazione.
+            </p>
+            <p>
+                Esempio:
+            <a href="https://google.com">Questo è un link a Google</a>
+            </p>
+        </li>
+        <!-- /Tag <a> -->
+        <hr>
         <!-- Tag <button> -->
         <li>
             <p>
@@ -187,7 +232,7 @@
         <!-- Tag <hr> -->
         <li>
             <p>
-                Il tag <b>&lt;hr&gt;</b>(horizontal rule) definisce una pausa tematica tra paragrafi nella pagina HTML.
+                Il tag <b>&lt;hr&gt;</b>(horizontal rule) definisce una pausa tematica tra paragrafi nella pagina HTML. È un tag di tipo <b>Block level</b>.
                 <br>L'elemento <b>&lt;hr&gt;</b> è maggiormente visualizzato come una linea orizzontale utilizzata per
                 separare i contenuti.
             </p>
@@ -198,6 +243,20 @@
             </p>
         </li>
         <!-- /Tag <hr> -->
+        <hr>
+        <!-- Tag <br> -->
+        <li>
+            <p>
+                Il tag <b>&lt;br&gt;</b>(line break) inserisce una singola interruzione di riga. È un tag di tipo <b>Inline</b>.
+                <br>L'elemento <b>&lt;br&gt;</b> è un tag vuoto perciò non ha un tag finale.
+            </p>
+            <p>
+            <p>Paragrafo 1</p>
+            <br>
+            <p>Paragrafo 2</p>
+            </p>
+        </li>
+        <!-- /Tag <br> -->
     </ul>
     <!-- /Self closing -->
 </body>
