@@ -1,11 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tag HTML</title>
 </head>
+
 <body>
-    
+    <h1>Tag HTML</h1>
+    <p>
+        Un <b>elemento HTML</b> è definito da una tag iniziale (<b>&lt;tag&gt;</b>). Se l'elemento ha al suo interno
+        altri contenuti, terminerà con un tag di chiusura (<b>&lt;/tag&gt;</b>) in cui il nome del tag è preceduto da
+        uno slash forward.
+    </p>
+    <section>
+        <p>Abbiamo tre tipi di tag:</p>
+        <ul>
+            <li>
+                <p>
+                    <b>Block level tags:</b> creano un elemento di tipo "block", cioè che occupa una intera linea,
+                    quindi obbliga gli elementi successivi ad andare su una nuova linea.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <b>Inline tags:</b> non obbligano gli elementi successivi ad andare su una nuova linea ma gli
+                    elementi rimangono sulla stessa linea.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <b>Self closing tags:</b> tag che non hanno bisogno di chiusura.
+                </p>
+            </li>
+        </ul>
+        <p>
+            Un altra sottocategoria di tag è quella dei <b>container</b>, tag che servono a raggruppare un insieme di
+            tag. Senza CSS non hanno una vera utilità se non quella di organizzare i tag.
+        </p>
+    </section>
+    <h2>Lista dei tag</h2>
+    <!-- Block level tags -->
+    <h3>Block level tags:</h3>
+    <ul>
+        <!-- Tag <p> -->
+        <li>
+            <p>
+                Il tag <b>&lt;p&gt;</b>(paragraph) definisce un paragrafo.
+            </p>
+            <p>
+                Esempio:
+            <p>Questo è un paragrafo</p>
+            </p>
+        </li>
+        <!-- /Tag <p> -->
+        <hr>
+        <!-- Tag <h1> - <h6> -->
+        <li>
+            <p>
+                I tag da <b>&lt;h1&gt;</b> a <b>&lt;h6&gt;</b>(heading) definiscono intestazioni HTML.
+            </p>
+            <ul>
+                <li>
+                    <p>
+                        <b>&lt;h1&gt;</b> definisce l'intestazione più importante, <b>&lt;h6&gt;</b> definisce
+                        l'intestazione meno importante.
+                    </p>
+                </li>
+                <li>
+                    <h3>Note d'uso:</h3>
+                    <ul>
+                        <li>
+                            <p>
+                                </b>Evita di utilizzare più di un <b>&lt;h1&gt;</b> per pagina, questo deve
+                                rappresentare l'intestazione principale per tutta la pagina.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Inoltre non saltare i livelli di intestazione: inizia con <b>&lt;h1&gt;</b>, poi
+                                <b>&lt;h2&gt;</b>, e così via.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Non utilizzare gli elementi di intestazione per ridimensionare il testo. Usa invece le
+                                proprietà di CSS.
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <p>
+                Esempio:
+            <h1>Questa è un intestazione 1</h1>
+            <h2>Questa è un intestazione 2</h2>
+            <h3>Questa è un intestazione 3</h3>
+            <h4>Questa è un intestazione 4</h4>
+            <h5>Questa è un intestazione 5</h5>
+            <h6>Questa è un intestazione 6</h6>
+            </p>
+        </li>
+        <!-- /Tag <h1> - <h6> -->
+        <hr>
+        <!-- Tag <ol> -->
+        <li>
+            <p>
+                Il tag <b>&lt;ol&gt;</b>(ordered list) definisce una lista ordinata di elementi, tipicamente reso come
+                un elenco numerato. Una lista ordinata può essere numerica o alfabetica.
+                <br>Il tag <b>&lt;li&gt;</b> viene utilizzato per definire ogni elemento della lista.
+            </p>
+            <p>
+                Esempio:
+            <ol>
+                <li>Fai il caffè</li>
+                <li>Aggiungi il latte</li>
+                <li>Aggiungi lo zucchero</li>
+            </ol>
+            </p>
+        </li>
+        <!-- /Tag <ol> -->
+        <hr>
+        <!-- Tag <ul> -->
+        <li>
+            <p>
+                Il tag <b>&lt;ul&gt;</b>(unordered list) definisce una lista non ordinata di elementi, tipicamente reso
+                come una lista puntata.
+                <br>Il tag <b>&lt;li&gt;</b> viene utilizzato per definire ogni elemento della lista.
+            </p>
+            <p>
+                Esempio:
+            <ul>
+                <li>Caffè</li>
+                <li>Latte</li>
+                <li>Zucchero</li>
+            </ul>
+            </p>
+        </li>
+        <!-- /Tag <ul> -->
+        <Hr>
+        <!-- Tag <li> -->
+        <li>
+            <p>
+                Il tag <b>&lt;li&gt;</b>(list item) definisce un elemento della lista.
+                <br>Il tag <b>&lt;li&gt;</b> viene utilizzato all'intero di <b>&lt;ol&gt;</b> e <b>&lt;ul&gt;</b>.
+            </p>
+            <p>
+                Esempio:
+            <ol>
+                <li>Caffè</li>
+            </ol>
+            <ul>
+                <li>Lattè</li>
+            </ul>
+            </p>
+        </li>
+        <!-- /Tag <li> -->
+    </ul>
+    <!-- /Block level tags -->
+    <hr>
+    <!-- Inline tags -->
+    <h3>Inline tags:</h3>
+    <ul>
+        <!-- Tag <button> -->
+        <li>
+            <p>
+                Il tag <b>&lt;button&gt;</b>(button) definisce un pulsante cliccabile.
+                <br>All'interno di un pulsante puoi inserire del testo e altri tag di stile.
+                <br>Ciò non è possibile con un pulsante create con l'elemento <b>&lt;input&gt;</b>.
+                <br><b>Consiglio:</b> Specifica sempre l'attributo <b>type</b> del <b>&lt;button&gt;</b>, affinchè il
+                tuo browser sappia che tipo di pulsante è.
+            </p>
+            <p>
+                Esempio:
+                <button type="button">Cliccami</button>
+            </p>
+        </li>
+        <!-- Tag <button> -->
+    </ul>
+    <!-- /Inline tags -->
+    <hr>
+    <!-- Self closing -->
+    <h3>Self closing tags:</h3>
+    <ul>
+        <!-- Tag <hr> -->
+        <li>
+            <p>
+                Il tag <b>&lt;hr&gt;</b>(horizontal rule) definisce una pausa tematica tra paragrafi nella pagina HTML.
+                <br>L'elemento <b>&lt;hr&gt;</b> è maggiormente visualizzato come una linea orizzontale utilizzata per
+                separare i contenuti.
+            </p>
+            <p>
+            <p>Paragrafo 1</p>
+            <hr>
+            <p>Paragrafo 2</p>
+            </p>
+        </li>
+        <!-- /Tag <hr> -->
+    </ul>
+    <!-- /Self closing -->
 </body>
+
 </html>
