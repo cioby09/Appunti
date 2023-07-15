@@ -1,0 +1,22 @@
+Git è un software, un sistema di versionamento, che ci permette di tracciare ogni step di progetto e di avere diverse versioni dello stesso.
+
+Ci permette di tracciare ogni modifica apportata al progetto e di poter condividere il nostro codice.
+Sia sul nostro computer che su piattaforme esterne, attraverso le quali possiamo condividere il nostro progetto con altre persone e quindi anche lavorarci in team in parallelo.
+
+Ci permette di controllare le modifiche, di poter tornare a una situazione precedente in cui il funzionamento del progetto era ancora presente, di riguardare precedenti stringhe di codice in seguito rimosse.
+
+Git fa parte di un sistema più vasto di software chiamati "Distributed version control software"(DVCS) che permettono di tracciare le modifiche, annullare le modifiche e tornare ad uno stato precedente, permettono la collaborazione tra più persone sul codice e di vedere chi ha fatto quali modifiche.
+
+
+Storia
+
+Git nasce nel 2005 ed è stato sviluppato da Linus Torvalds per aiutare lo sviluppo di Kernel Linux.
+
+Git fin da subito ha avuto alcune caratteristiche che gli altri DVCS non avevano:
+- Velocità
+- Design semplice
+- Massimo supporto allo sviluppo non lineare (migliaia di branch paralleli possibili)
+- Massima compatibilità e quindi diffusione
+- Capacità di sostenere in modo efficiente grandi progetti come il Kernel Linux (15+ million LOC)
+
+Così è diventato lo standard dei DVCS, che adesso viene utilizzato da qualsiasi azienda.

@@ -198,12 +198,14 @@
         <!-- Tag <a> -->
         <li>
             <p>
-                Il tag <b>&lt;a&gt;</b>(anchor tag) definisce un hyperlink, utilizzato per collegare da una pagina a un altra.
-                <br>L'attributo più importante del tag <b>&lt;a&gt;</b> è <b>"href"</b>, che indica l'indirizzo di destinazione.
+                Il tag <b>&lt;a&gt;</b>(anchor tag) definisce un hyperlink, utilizzato per collegare da una pagina a un
+                altra.
+                <br>L'attributo più importante del tag <b>&lt;a&gt;</b> è <b>"href"</b>, che indica l'indirizzo di
+                destinazione.
             </p>
             <p>
                 Esempio:
-            <a href="https://google.com">Questo è un link a Google</a>
+                <a href="https://google.com">Questo è un link a Google</a>
             </p>
         </li>
         <!-- /Tag <a> -->
@@ -223,6 +225,30 @@
             </p>
         </li>
         <!-- Tag <button> -->
+        <hr>
+        <!-- Tag <select> -->
+        <li>
+            <p>
+                Il tag <b>&lt;select&gt;</b>(select) va a creare un elenco a discesa, viene solitamente utilizzato nei
+                form per collezionare i dati dell'utente.
+                <br>L'attributo <b>name=""</b> è necessario per fare riferimento ai dati del modulo dopo esser stato
+                inviato (senza un attributo <b>name=""</b>, i dati non verranno inviati).
+                <br>L'attributo <b>id=""</b> è necessario per associare l'elenco a discesa con un <b>&lt;label&gt;</b>.
+                <br>Gli elementi del tag <b>&lt;select&gt;</b> sono definiti dai tag <b>&lt;option&gt;</b>.
+            </p>
+            <p>
+                Esempio:
+                <label for="cars">Scegli un auto:</label>
+
+                <select name="cars" id="cars">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                </select>
+            </p>
+        </li>
+        <!-- Tag <select> -->
     </ul>
     <!-- /Inline tags -->
     <hr>
@@ -232,7 +258,8 @@
         <!-- Tag <hr> -->
         <li>
             <p>
-                Il tag <b>&lt;hr&gt;</b>(horizontal rule) definisce una pausa tematica tra paragrafi nella pagina HTML. È un tag di tipo <b>Block level</b>.
+                Il tag <b>&lt;hr&gt;</b>(horizontal rule) definisce una pausa tematica tra paragrafi nella pagina HTML.
+                È un tag di tipo <b>Block level</b>.
                 <br>L'elemento <b>&lt;hr&gt;</b> è maggiormente visualizzato come una linea orizzontale utilizzata per
                 separare i contenuti.
             </p>
@@ -247,7 +274,8 @@
         <!-- Tag <br> -->
         <li>
             <p>
-                Il tag <b>&lt;br&gt;</b>(line break) inserisce una singola interruzione di riga. È un tag di tipo <b>Inline</b>.
+                Il tag <b>&lt;br&gt;</b>(line break) inserisce una singola interruzione di riga. È un tag di tipo
+                <b>Inline</b>.
                 <br>L'elemento <b>&lt;br&gt;</b> è un tag vuoto perciò non ha un tag finale.
             </p>
             <p>
@@ -257,6 +285,148 @@
             </p>
         </li>
         <!-- /Tag <br> -->
+        <hr>
+        <!-- Tag <input> -->
+        <li>
+            <p>
+                Il tag <b>&lt;input type=""&gt;</b>(input) definisce un campo di input in cui l'utente può inserire dei
+                dati.
+                <br>Il tag <b>&lt;input&gt;</b> necessita dell'attributo <b>type=""</b> il quale cambia le proprietà
+                dell'input in varie forme.
+            </p>
+            <h4>Ecco le varie tipologie di input:</h4>
+            <ul>
+                <li>
+                    <b>&lt;input type="button"&gt;</b> definisce un pulsante senza una funzione di default che
+                    visualizza il valore di <b>"value"</b> che è vuoto di default.
+                    <p>
+                        Esempio:
+                        <input type="button" name="" id="">
+                    </p>
+                </li>
+                <li>
+                    <b>&lt;input type="checkbox"&gt;</b> definisce una casella di spunta che permette di selezionare e
+                    deselezionare valori singoli.
+                    <p>
+                        Esempio:
+                        <input type="checkbox" name="" id="">
+                        <input type="checkbox" name="" id="">
+                    </p>
+                </li>
+                <li>
+                    <b>&lt;input type="color"&gt;</b> definisce un pulsante per selezionare un colore grazie ad un
+                    selettore di colori.
+                    <p>
+                        Esempio:
+                        <input type="color" name="" id="">
+                    </p>
+                </li>
+                <li>
+                    <b>&lt;input type="date"&gt;</b> definisce un input in cui inserire una data.
+                    <br>In base al browser visualizzerà un calendario o delle ruote numeriche con cui selezionare la
+                    data.
+                    <p>
+                        Esempio:
+                        <input type="date" name="" id="">
+                    </p>
+                </li>
+                <li>
+                    <b>&lt;input type="datetime-local"&gt;</b> definisce un input in cui inserire una data e un orario.
+                    <br>In base al browser visualizzerà un calendario o delle ruote numeriche con cui selezionare la
+                    data e l'orario.
+                    <p>
+                        Esempio:
+                        <input type="datetime-local" name="" id="">
+                    </p>
+                </li>
+                <li>
+                    <b>&lt;input type="email"&gt;</b> definisce un campo per la modifica di un indirizzo email.
+                    <br>A differenza di un semplice input di testo possiede dei parametri di convalidazione.
+                    <p>
+                        Esempio:
+                        <input type="email" name="" id="">
+                    </p>
+                </li>
+                <li>
+                    <b>&lt;input type="file"&gt;</b> definisce un pulsante che permette all'utente di selezionare un
+                    file.
+                    <p>
+                        Esempio:
+                        <input type="file" name="" id="">
+                    </p>
+                </li>
+                <li>
+                    <b>&lt;input type="month"&gt;</b> definisce un input in cui inserire un mese e un anno.
+                    <p>
+                        Esempio:
+                        <input type="month" name="" id="">
+                    </p>
+                </li>
+                <li>
+                    <b>&lt;input type="number"&gt;</b> definisce un input in cui inserire un numero. Visualizza a
+                    schermo uno spinner che permette di cambiare numero.
+                    <p>
+                        Esempio:
+                        <input type="number" name="" id="">
+                    </p>
+                </li>
+                <li>
+                    <b>&lt;input type="password"&gt;</b> definisce un input di testo i cui valori sono oscurati.
+                    <p>
+                        Esempio:
+                        <input type="password" name="" id="">
+                    </p>
+                </li>
+                <li>
+                    <b>&lt;input type="radio"&gt;</b> definisce un pulsante che permette di selezionare un singolo
+                    valore tra varie opzioni con lo stesso valore <b>name=""</b>.
+                    <p>
+                        Esempio:
+                        <input type="radio" name="radio-button" id="">
+                        <input type="radio" name="radio-button" id="">
+                    </p>
+                </li>
+                <li>
+                    <b>&lt;input type="range"&gt;</b> definisce un input di un numero il cui esatto valore non è
+                    rilevante.
+                    <br>Viene visualizzato come una barra il cui range è impostato al valore medio di default.
+                    <p>
+                        Esempio:
+                        <input type="range" name="" id="">
+                    </p>
+                </li>
+                <li>
+                    <b>&lt;input type="submit"&gt;</b> definisce un pulsante che invia il modulo.
+                    <p>
+                        Esempio:
+                        <input type="submit" name="" id="">
+                    </p>
+                </li>
+                <li>
+                    <b>&lt;input type="text"&gt;</b> definisce un input di testo.
+                    <p>
+                        Esempio:
+                        <input type="text" name="" id="">
+                    </p>
+                </li>
+                <li>
+                    <b>&lt;input type="time"&gt;</b> definisce un input per un orario.
+                    <p>
+                        Esempio:
+                        <input type="time" name="" id="">
+                    </p>
+                </li>
+                <li>
+                    <b>&lt;input type="url"&gt;</b> definisce un input per un URL.
+                    <br>A differenza di un semplice input di testo possiede dei parametri di convalidazione.
+                    <p>
+                        Esempio:
+                        <input type="url" name="" id="">
+                    </p>
+                </li>
+            </ul>
+        </li>
+        <!-- /Tag <input> -->
     </ul>
     <!-- /Self closing -->
 </body>
