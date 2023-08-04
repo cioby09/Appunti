@@ -20,3 +20,21 @@ Git fin da subito ha avuto alcune caratteristiche che gli altri DVCS non avevano
 - Capacità di sostenere in modo efficiente grandi progetti come il Kernel Linux (15+ million LOC)
 
 Così è diventato lo standard dei DVCS, che adesso viene utilizzato da qualsiasi azienda.
+
+
+Procedimento:
+
+Git - Init (Inizializzazione del progetto)
+- Operazione da fare solo all'inizio di ogni progetto
+- Da questo momento ogni modifica sarà tracciata e la tua cartella di progetto diventa un "repository"(Repository(o repo) è l'insieme di tutti i file del progetto e la loro storia)
+
+Git - Staging (Inserimento dei file nell'area di staging)
+- Git controlla i file del repo e segnala quali sono quelli che sono stati modificati, rispetto all'ultimo stato.
+- È nostro compito selezionare quelli che logicamente fanno parte della stessa modifica inserendoli nell'area di staging (Staging: è l'area di sosta temporanea comune per tutti i file che concorrono per tutti i file che concorrono alla stessa modifica)
+
+Git - Commit (Creazione di un commit)
+- Quando tutti i file necessari a fare una modifica sono stati modificati e inseriti nell'area di staging, si può creare un commit (Commit: è l'atto di creare uno stato recuperabile del progetto)
+- Git prende tutte le informazioni dei file nell'area di staging e crea uno "stato di progetto" sulla linea temporale.
+- Questo potrà essere utilizzato anche come punto di recupero. È un commit e sarà possibile tornare allo stato del progetto al momento del commit in qualsiasi momento.
+
+Git - Revert
