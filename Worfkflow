@@ -1,0 +1,11 @@
+- Nuovo progetto:
+    - Creare uno nuovo repository in Github
+    - Clonare il repository su Visual Studio Code
+    - Scegliere il percorso file del repository
+    - Aprire il progetto
+
+- Commit & Push:
+    - Andare in "source control"
+    - Aggiungiamo le modifiche nell'area di staging
+    - Inseriamo un messaggio di commit e confermiamo il commit
+    - In "source control" andiamo sui tre puntini e clicchiamo "push"
