@@ -1,0 +1,25 @@
+- Git:
+    Installazione Windows:
+    - Installare Git: https://git-scm.com/downloads
+    - Seguire la procedura guidata
+    - Riavviare il PC
+    - Verificare la corretta installazione di Git nel terminale con: git --version
+
+    Installazione MacOS:
+    - Installare Homebrew tramite il terminale con: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    - Inserire la password dell'utente
+    -Installiamo Git tramite il terminale con: brew install git
+
+    Installazione Linux:
+    - Installare Git tramite il terminale con: apt-get install git
+
+- Visual Studio Code: https://code.visualstudio.com/download
+
+- VS Code + Git:
+    - Impostare a livello di sistema le credenziali Git con:
+        git config --global user.name "MyUsername"
+        git congig --global user.email "My@email.com"
+    - Installare alcune estensioni consigliate:
+        - Git Graph
+        - Git Lens
+        - Git History

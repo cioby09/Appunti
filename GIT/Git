@@ -36,5 +36,25 @@ Git - Commit (Creazione di un commit)
 - Quando tutti i file necessari a fare una modifica sono stati modificati e inseriti nell'area di staging, si può creare un commit (Commit: è l'atto di creare uno stato recuperabile del progetto)
 - Git prende tutte le informazioni dei file nell'area di staging e crea uno "stato di progetto" sulla linea temporale.
 - Questo potrà essere utilizzato anche come punto di recupero. È un commit e sarà possibile tornare allo stato del progetto al momento del commit in qualsiasi momento.
+- L'ultimo commit viene chiamato "Head".
 
-Git - Revert
+Git - Revert (Ritorno ad un commit precedente)
+- Per tornare ad un commit precedente è possibile eseguire una operazione di revert, indicando l'hash (codice univoco identificativo del commit) del commit che si vuole revertare, tornando di fatto alla situazione precedente.
+- Questa azione non cancella commit, ma fa una copia dello stato precedente del progetto in un nuovo commit, aggiungendolo alla linea temporale.
+
+Git - Reset (Ritorno ad un commit precedente)
+- È possibile anche eseguire una operazione di reset, indicando l'hash del commit a cui si vuole ritornare.
+Esistono due tipi di reset:
+  - Hard reset, tutte le modifiche successive al commit vengono eliminate
+  - Reset, tutte le modifiche successive al commit vengono messe in staging
+- In linea generale alterare la linea temporale può portare diversi problemi, è quindi preferibile evitarlo quando possibile.
+
+Git - Remote (Salvare la repo su cloud)
+- È possibile inviare la copia del nostro repo ad un server esterno, per diversi motivi, tra cui:
+  - per sicurezza (se il codice fosse solo sul nostro PC e questo si rompesse?)
+  - per facilitare la condivisione del codice con altre persone
+
+Git - Push (Sincronizzazione repo - da local a remote)
+- Per far si che il nostro remote abbia una vera utilità dobbiamo caricarci tutte le informazioni del nostro repo locale man mano che ci lavoriamo.
+- Il push fa proprio questo, quindi caricherà tutto lo stato del nostro repo locale. Sia i file con le modifiche, sia eventuali file nuovi, sia tutte le informazioni di tracciamento di Git.
+- È importante farlo di frequente e non solo a fine giornata.

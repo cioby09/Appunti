@@ -1,0 +1,9 @@
+- Git Graph: View a Git Graph of your repository, and perform Git actions from the graph
+
+- Git Lens: Supercharge Git within VS Code — Visualize code authorship at a glance via Git blame annotations and CodeLens, seamlessly navigate and explore Git repositories, gain valuable insights via rich visualizations and powerful comparison commands, and so much more
+
+- Git History: View git log, file history, compare branches or commits
+
+- Live Server: Launch a development local Server with live reload feature for static & dynamic pages
+
+- Open in browser: This allows you to open the current file in your default browser or application

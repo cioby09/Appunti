@@ -1,0 +1,28 @@
+Introduzione
+
+C# è un linguaggio di programmazione multi-paradigma(capace di supportare diversi paradigmi di programmazione) che supporta tutti i concetti della programmazione orientata agli oggetti.
+Sviluppato da Microsoft all'interno di .NET(Piattaforma di sviluppo che supporta più linguaggi di programmazione).
+
+
+Storia
+
+C# è stato sviluppato da Anders Hejlsberg per conto di Microsoft, partendo dal gennaio del 1999. Chiamata all'inizio "Cool"(C-like Object Oriented Language), fu poi presentato come C# alla presentazione ufficiale del progetto .NET nel 2000 come linguaggio di programmazione basato sul framework .NET.
+
+Caratteristiche
+
+C# è un linguaggio particolarmente adatto a gestire il Framework .NET, essendo stato creato specificatamente per la programmazione nel Framework .NET.
+
+La sintassi di base è simile a quella dei linguaggi C, C++ e Java. Alcune di queste sono:
+- I nomi di variabili, funzioni, classi e altri sono "case-sensitive"
+- Ogni specifica dev'essere chiusa dal carattere punto e virgola
+- Gli indici degli elementi di array e matrici sono numerati a partire da 0
+- Le parentesi graffe sono usate per ragruppare specifiche
+- Le specifiche sono raggrupate in metodi, i metodi sono raggrupati in classi, e le classi sono raggruppate nel namespace
+
+Methods
+
+- Console.WriteLine(); crea una linea di testo che viene mostrata in console
+
+- Console.Write(); va a scrivere del testo in console
+
+- Console.Beep(); produce un suono quando il programma arriva alla sua fine
